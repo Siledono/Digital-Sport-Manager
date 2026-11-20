@@ -1,0 +1,55 @@
+# ============================================================================
+# .gitignore para Digital Sport Manager (Python + MySQL)
+# ============================================================================
+
+# --- Caché y Bytecode de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Entornos Virtuales ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Variables de Entorno y Credenciales Privadas ---
+.env
+.env.local
+.env.*.local
+
+# --- Configuraciones de Editores e IDEs ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# --- Archivos del Sistema Operativo ---
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Logs y Archivos Temporales ---
+*.log
+*.tmp
+*.bak
+*.old
+scratch/
+
+# --- Respaldos locales antiguos ---
+legacy/
+legacy_backup/
